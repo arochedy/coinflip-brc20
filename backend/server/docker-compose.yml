@@ -1,0 +1,9 @@
+
+version: "3.5"
+
+services:  
+  flick_the_bean:
+    image: flick_the_bean
+    container_name: flick_the_bean
+    build: 
+      context: ./api

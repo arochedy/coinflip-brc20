@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "withdraw.schema.json",
+  "title": "withdraw",
+  "description": "withdraw brc20",
+  "type": "object",
+  "properties": {
+    "transactionId": {
+      "description": "transactionId of deposit fee for withdraw",
+      "type": "number"
+    },
+    "address": {
+      "description": "depositAddress",
+      "type": "string"
+    },
+    "withdrawAddress": {
+      "description": "withdrawAddress",
+      "type": "string"
+    },
+    "amount": {
+      "description": "amount",
+      "type": "number"
+    },
+    "userId": {
+      "description": "userId",
+      "type": "integer"
+    }
+  },
+  "required": ["userId", "amount"],
+  "additionalProperties": false
+}

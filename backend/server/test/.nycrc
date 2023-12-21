@@ -1,0 +1,7 @@
+{
+  "reporter": ["lcov"],
+  "exclude": [
+    "utils/{*,*/*.js}",
+    "test/{*,*/*.js}"
+  ]
+}
