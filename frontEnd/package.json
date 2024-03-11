@@ -53,6 +53,7 @@
     "zustand": "^4.4.2"
   },
   "devDependencies": {
+    "@types/async-retry": "^1.4.8",
     "@types/bitcore-lib": "^0.15.6",
     "@types/js-cookie": "^3.0.4",
     "@types/react-copy-to-clipboard": "^5.0.4",
